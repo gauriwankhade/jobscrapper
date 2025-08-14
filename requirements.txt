@@ -1,0 +1,6 @@
+beautifulsoup4
+bs4
+Django
+djangorestframework
+requests
+urllib3==2.5.0
