@@ -123,3 +123,12 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# config/settings.py
+INSTALLED_APPS += ["django_apscheduler"]
+
+# (Optional) nice timestamps in logs/admin
+APSCHEDULER_DATETIME_FORMAT = "N j, Y, f:s a"  # e.g. Oct 25, 2025, 2:10 pm
+TIME_ZONE = "Asia/Kolkata"  # set to your course TZ
+USE_TZ = True
+
